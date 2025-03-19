@@ -1,0 +1,12 @@
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}

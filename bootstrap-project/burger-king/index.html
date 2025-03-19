@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Burger King</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./bootstrap-icons-1.11.3/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <button 
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" id="offcanvas">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <a href="#" class="text-center navbar-brand fw-bold" style="color: #502314;">BURGER KING</a>
+            <div class="d-flex align-items-center">
+                <i class="bi bi-person fs-4 me-3" style="color: #d62300;"></i>
+                <button class="btn rounded-pill px-4 text-white" style="background-color: #d62300;"><i class="bi bi-bag-check-fill me-2"></i>View Cart</button>
+            </div>
+        </div>
+    </nav>
+    <main style="background-color: #F8F1E7;">
+        <section class="hero py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <h2 class="display-3" style="color: #502314;font-family: Flame-Bold;font-weight:bolder;">Start your BK<sup>®</sup> order.</h2>
+                        <button class="btn rounded-pill mb-2 px-5 text-white" style="background-color: #d62300; height: 50px; width: 300px;"><i class="bi bi-bag-dash-fill me-2"></i>Order Pickup</button>
+                        <button class="btn rounded-pill border border-1 border-dark px-5" style="height: 50px; width: 300px;"><i class="bi bi-scooter"></i>Order Delivery</button>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="./images/hero-bg.png" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card border-0 rounded-4 mb-3" style="box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 2.22px;color: #502314;">
+                            <div class="card-img">
+                                <img src="./images/card-1.png" class="card-img-top rounded-top-4" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="fs-4">Your BK® Combo, your way</h2>
+                                <p class="fw-semibold" style="font-size: 12px;">Fries and sides aren’t just an afterthought—they’re the star of the show! Now you can mix it up at and have it your way!</p>
+                                <a href="#" style="color: #502314;">See Terms.</a>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn border border-1 border-dark rounded-pill">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 rounded-4 mb-3" style="box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 2.22px;color: #502314;">
+                            <div class="card-img">
+                                <img src="./images/card-2.png" class="card-img-top rounded-top-4" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="fs-4">Crispy, flaky and a total catch.</h2>
+                                <p class="fw-semibold" style="font-size: 12px;">Reel in big savings! Buy one Big Fish and get another for $2! Don’t let this deal wash away—here for a limited time only. Also available on delivery! Delivery fees and higher prices apply.</p>
+                                <a href="#" style="color: #502314;">See Terms.</a>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn border border-1 border-dark rounded-pill">Redeem Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 rounded-4 mb-3" style="box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 2.22px;color: #502314;">
+                            <div class="card-img">
+                                <img src="./images/card-3.png" class="card-img-top rounded-top-4" alt="">
+                            </div>
+                            <div class="card-body p-3">
+                                <h2 class="fs-4">Your favorites, your way. For $5 or $7!</h2>
+                                <p class="fw-semibold" style="font-size: 12px;">Save big with the $5 Duo or $7 Trio! Mix and match your faves—want 3 Bacon Cheeseburgers? You got it. Craving 2 Original Chicken Sandwiches? Go for it. It’s your choice—so Have It Your Way</p>
+                                <a href="#" style="color: #502314;">See Terms.</a>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn border border-1 border-dark rounded-pill">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 rounded-4 mb-3" style="box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 2.22px;color: #502314;">
+                            <div class="card-img">
+                                <img src="./images/card-4.png" class="card-img-top rounded-top-4" alt="">
+                            </div>
+                            <div class="card-body p-4">
+                                <h2 class="fs-4">The tastiest deal of the week</h2>
+                                <p class="fw-semibold" style="font-size: 12px;">Today only! Get a great deal on the full-on flame-grilled flavor of a Whopper®. Order it your way in the BK® App.</p>
+                                <a href="#" style="color: #502314;">See Terms.</a>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn border border-1 border-dark rounded-pill">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/scanner.png" class="w-75" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="py-5" style="color: #502314;">
+                            <h2 class="mb-5 display-5 fw-bolder">Save $$$ <br> With offers on demand</h2>
+                            <div class="row mb-5">
+                                <div class="col-md-6">
+                                    <a href="#">
+                                        <img src="./images/playstore.webp" class="w-75 img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#">
+                                        <img src="./images/appstore.webp" class="w-75 img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="fs-6 fw-semibold">Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Terms apply.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
